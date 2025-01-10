@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cards Soccer</title>
+    <link rel="stylesheet" href="./src/css/style.css" />
+  </head>
+  <body>
+    <div id="wrapper">
+      <h1>Team stats</h1>
+      <nav>
+          <ul id="options">
+            <!--options li dinamic-->
+          </ul>
+      </nav>
+      <h2>Filter Teammates:</h2>
+      <select name="position" id="user-selected" aria-label="user select">
+            <option value="all">All Players</option>
+            <option value="goalkeeper">Goalkeeper</option>
+            <option value="defender">Defender</option>
+            <option value="midfielder">Midfielder</option>
+            <option value="forward">Forward</option>
+      </select>
+      <div id="container-cards">
+        <!--cards article dinamic-->
+      </div>
+    </div>
+  </body>
+  <script src="src/script/main.js"></script>
+</html>
