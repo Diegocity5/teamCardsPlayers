@@ -7,4 +7,6 @@ const playerCards = document.getElementById('player-cards');
 const playersDropdownList = document.getElementById('players');
 
 //Estructura de datos para las cartas de my equipo de football.
-const myFavoriteFootballTeam = {};
+const myFavoriteFootballTeam = {
+    team: 'Argentina',
+};
