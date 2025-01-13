@@ -15,5 +15,6 @@ const myFavoriteFootballTeam = {
     headCoach: {
         coachName: "Carlos Bilardo",
         matches: 7
-    }
+    },
+    players: []
 };
