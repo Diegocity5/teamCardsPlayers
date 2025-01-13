@@ -155,3 +155,6 @@ const myFavoriteFootballTeam = {
         }
     ]
 };
+
+//Congelando el objeto para prevenir mutaciones.
+Object.freeze(myFavoriteFootballTeam);
