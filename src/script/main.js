@@ -168,4 +168,9 @@ worldCupYear.textContent = year;
 headCoach.textContent = coachName;
 
 //Funcion que se encargara de mostrar las cartas dependiendo la opcion elegida del menu despeglable.
-const setPlayerCards = ( arr=players )=>{};
+const setPlayerCards = ( arr=players )=>{
+    /*Cartas iteradas usando el metodo moderno map que me retorna un nuevo array en base de otro array.
+    despues asigno el valor a playerCards*/
+    playerCards.innerHTML += arr.map(()=>{
+    });
+};
