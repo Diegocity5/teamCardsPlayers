@@ -158,7 +158,7 @@ const myFavoriteFootballTeam = {
 
 //Congelando el objeto para prevenir mutaciones.
 Object.freeze(myFavoriteFootballTeam);
-const {sport, team} = myFavoriteFootballTeam;
+const {sport, team, year, players} = myFavoriteFootballTeam;
 
 
 
