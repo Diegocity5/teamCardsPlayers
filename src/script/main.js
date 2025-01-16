@@ -166,3 +166,6 @@ typeOfSport.textContent = sport;
 teamName.textContent = team;
 worldCupYear.textContent = year;
 headCoach.textContent = coachName;
+
+//Funcion que se encargara de mostrar las cartas dependiendo la opcion elegida del menu despeglable.
+const setPlayerCards = ()=>{};
