@@ -164,4 +164,5 @@ const {coachName} = myFavoriteFootballTeam.headCoach;
 //Monstrando la información del equipo en pantalla
 typeOfSport.textContent = sport;
 teamName.textContent = team;
-
+worldCupYear.textContent = year;
+headCoach.textContent = coachName;
