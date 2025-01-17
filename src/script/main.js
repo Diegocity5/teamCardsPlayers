@@ -190,6 +190,7 @@ headCoach.textContent = coachName;
 const setPlayerCards = ( arr=players )=>{
     /*Cartas iteradas usando el metodo moderno map que me retorna un nuevo array en base de otro array.
     despues asigno el valor a playerCards*/
+    //Uso la desestructuración de objetos en el callback para obtener valores de propiedades especificas.
     playerCards.innerHTML += arr.map(({name, position, number, isCaptain, nickname})=>{
         
     });
