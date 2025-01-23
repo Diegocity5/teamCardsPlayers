@@ -201,3 +201,8 @@ const setPlayerCards = ( arr=players )=>{
         </div>`;
     }).join('');//Uniendo en un solo strings y eliminando las comas entre las cartas
 };
+
+//Manejador de evento detectara un cambio de valor en selector
+playersDropdownList.addEventListener('change', ()=>{
+
+});
