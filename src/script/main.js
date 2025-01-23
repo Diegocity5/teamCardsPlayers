@@ -199,5 +199,5 @@ const setPlayerCards = ( arr=players )=>{
             <p>Number: ${number}</p>
             <p>Nickname: ${nickname !== null ? nickname : 'N/A'}</p>
         </div>`;
-    });
+    }).join('');//Uniendo en un solo strings y eliminando las comas entre las cartas
 };
