@@ -204,5 +204,5 @@ const setPlayerCards = ( arr=players )=>{
 
 //Manejador de evento detectara un cambio de valor en selector
 playersDropdownList.addEventListener('change', (e)=>{
-
+    console.log(e.target.value);
 });
