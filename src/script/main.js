@@ -206,5 +206,9 @@ const setPlayerCards = ( arr=players )=>{
 playersDropdownList.addEventListener('change', (e)=>{
     //limpiamos el contedor de cartas antes de actualizar
     playerCards.innerHTML = '';
-    
+
+    //Validando segun opcion elegida posicion de jugador para filtrar
+    switch(e.target.value){
+        
+    }
 });
