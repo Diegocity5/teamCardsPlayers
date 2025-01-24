@@ -209,6 +209,7 @@ playersDropdownList.addEventListener('change', (e)=>{
 
     //Validando segun opcion elegida posicion de jugador para filtrar
     switch(e.target.value){
-        
+        case 'nickname':
+        break;
     }
 });
