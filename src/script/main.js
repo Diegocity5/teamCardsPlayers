@@ -8,7 +8,7 @@ const playersDropdownList = document.getElementById('players');
 
 //Estructura de datos para las cartas de my equipo de football.
 const myFavoriteFootballTeam = {
-    team: 'Argentina',
+    team: 'Argentina 🇦🇷',
     sport: 'Football',
     year: 1986,
     isWorldCupWinner: true,
@@ -228,3 +228,6 @@ playersDropdownList.addEventListener('change', (e)=>{
             setPlayerCards();
     }
 });
+
+//Renderizando las cartas al inicio
+setPlayerCards();

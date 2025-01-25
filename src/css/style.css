@@ -41,7 +41,9 @@ footer {
 .options-label {
   font-size: 1.2rem;
 }
-
+select {
+  padding: 8px;
+}
 .cards {
   display: flex;
   flex-wrap: wrap;
@@ -50,11 +52,13 @@ footer {
 }
 
 .player-card {
-  background-color: var(--light-grey);
+  background: linear-gradient(-180deg, rgb(213, 212, 212) 30%, rgb(139, 207, 231) 100%);
+  box-shadow: 2px 2px 0.5px 0.1px #fcfbfbbc;
   padding: 1.3rem;
   margin: 1.2rem;
   width: 300px;
   border-radius: 15px;
+  overflow: hidden;
 }
 
 @media (max-width: 768px) {
